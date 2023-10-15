@@ -1,0 +1,34 @@
+.sidebar-container {
+  width: 150px;
+  padding-top: 3em;
+}
+.sidebar-list {
+  list-style-type: none;
+  display: flex;
+  row-gap: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.sidebar-list li {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100px;
+  height: 60px;
+  font-size: 14px;
+  color:black;
+}
+.ActiveSideBar{
+  font-size: 3em ; 
+  transition: font-size 1s;
+  color: rgb(8, 80, 170);
+}
+.sideBar:hover{
+  font-size: 3.5em ; 
+  transition: font-size 1s;
+}
+.sideBar{
+  font-size: 2rem;
+  transition: font-size 1s;
+  /* transition-delay: 2s; */
+}

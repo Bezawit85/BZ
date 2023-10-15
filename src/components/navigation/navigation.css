@@ -1,0 +1,25 @@
+.nav-container {
+  height: 100px;
+  box-shadow: -1px 2px 12px 1px rgba(200, 224, 247, 0.75);
+-webkit-box-shadow: -1px 2px 12px 1px rgba(200, 215, 228, 0.75);
+-moz-box-shadow: -1px 2px 12px 1px rgba(167, 207, 242, 0.75);
+  margin-bottom: 50px;
+}
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.nav-logo .logo {
+  color: black;  font-size: 30px;
+  font-weight: 700;
+}
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  column-gap: 30px;
+  margin-right: 30px;
+}
